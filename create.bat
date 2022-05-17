@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name  UdagramServers --template-body file://Udagram.yml --parameters file://Udagram.json --region=us-east-1 --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" 
